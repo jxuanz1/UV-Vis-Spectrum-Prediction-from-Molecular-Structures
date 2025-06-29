@@ -1,6 +1,7 @@
 # UV-Vis-Spectrum-Prediction-from-Molecular-Structures
 本项目旨在基于有机分子的结构信息（SMILES）预测其紫外-可见吸收光谱（UV-Vis Spectrum），支持科研与教学场景下对分子光谱特征的快速估算。项目构建了两个深度学习模型（LSTM 和 Seq2Seq）并提供图形化用户界面用于实时预测与可视化。
 一、项目结构
+'''
 ├── data_preprocessing.py          # 原始数据加载与处理
 ├── feature_engineering.py         # 分子指纹生成、SMILES 编码
 ├── model_training.py              # 模型训练脚本（LSTM / Seq2Seq）
@@ -13,7 +14,7 @@
 ├── max_smiles_length.pkl          # SMILES 最大长度
 ├── prediction_comparison.png      # 模型预测可视化结果图
 └── README.md                      # 项目说明文档
-
+'''
 ---
 
 ## 二、数据说明
